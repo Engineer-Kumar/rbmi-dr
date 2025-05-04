@@ -1,0 +1,765 @@
+/********** Template CSS **********/
+:root {
+    --primary: #000035;
+    --secondary: #000042;
+    --light: #dbb3d1;
+    --dark: #1D2A4D;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+.btn {
+    font-weight: 700;
+    transition: .5s;
+}
+
+/* Footer Styling */
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.text-dark {
+    color: #333 !important;
+}
+
+.hospital-log{
+    max-width: 85px;
+    height:auto ;
+}
+
+/* Hospital Logo */
+.hospital-logo  {
+    max-width: 85px; /* Set proper height */
+    height: auto;
+}
+
+/* Section Headers */
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Quick Links */
+.text-dark {
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.text-dark:hover {
+    color: #007bff;
+}
+
+/* Social Media Icons */
+.btn-lg-square {
+    width: 40px;  /* Reduced size */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.btn-lg-square:hover {
+    background-color: #0056b3;
+}
+
+/* Adjusting space for Quick Links & Address */
+.d-flex.justify-content-between {
+    gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .text-md-start {
+        text-align: center !important;
+    }
+    .text-md-end {
+        text-align: center !important;
+    }
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Top Bar Styling */
+.container-fluid {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+    padding: 8px 0;
+}
+
+/* Logo */
+.hospital-logo {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Hospital Name */
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Address Section */
+.hospital-address {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+/* Contact Info Section */
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Contact Numbers */
+.hospital-contact {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+/* Icons */
+.hospital-contact i {
+    font-size: 16px;
+}
+
+.hospital-contact:hover {
+    color: #007bff;
+}
+
+/* Labels Above Numbers */
+small {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .container-fluid {
+        text-align: center;
+    }
+    .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .hospital-contact {
+        margin-top: 5px;
+    }
+}
+
+
+/* Top Bar Styling */
+.container-fluid {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+    padding: 8px 0;
+}
+
+/* Logo */
+.hospital-logo {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Hospital Name */
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Address Section */
+.hospital-address {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+/* Contact Info Section */
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Contact Numbers */
+.hospital-contact {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+/* Icons */
+.hospital-contact i {
+    font-size: 16px;
+}
+
+.hospital-contact:hover {
+    color: #007bff;
+}
+
+/* Labels Above Numbers */
+small {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .container-fluid {
+        text-align: center;
+    }
+    .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .hospital-contact {
+        margin-top: 5px;
+    }
+}
+
+.bg-white {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Adjust logo size */
+.hospital-logo {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Ensure text is compact */
+.small {
+    font-size: 14px;
+}
+
+/* Adjust padding in footer sections */
+.container-fluid.bg-light {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Adjust spacing in Quick Links */
+.d-flex.flex-column a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.d-flex.flex-column a:hover {
+    color: #007bff;
+}
+
+/* Social Media Icons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-sm {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .col-lg-4, .col-lg-5, .col-lg-3 {
+        margin-bottom: 15px;
+    }
+}
+
+
+.btn:hover {
+    -webkit-box-shadow: 0 8px 6px -6px #555555;
+    -moz-box-shadow: 0 8px 6px -6px #555555;
+    box-shadow: 0 8px 6px -6px #555555;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    z-index: 99;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    margin-left: 30px;
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark);
+    outline: none;
+    transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link::before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 5px;
+        bottom: 0;
+        left: 50%;
+        background: var(--primary);
+        transition: .5s;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover::before,
+    .navbar-light .navbar-nav .nav-link.active::before {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link  {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+}
+
+.hero-header {
+    background: url(../img/) top right no-repeat;
+    background-size: cover;
+}
+
+.service-item {
+    position: relative;
+    height: 350px;
+    padding: 0 30px;
+    transition: .5s;
+}
+
+.service-item .service-icon {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    border-radius: 50%;
+    transform: rotate(-14deg);
+}
+
+.service-item .service-icon i {
+    transform: rotate(15deg);
+}
+
+.service-item a.btn {
+    position: absolute;
+    width: 60px;
+    bottom: -48px;
+    left: 50%;
+    margin-left: -30px;
+    opacity: 0;
+}
+
+.service-item:hover a.btn {
+    bottom: -24px;
+    opacity: 1;
+}
+
+.price-carousel::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background: var(--primary);
+    border-radius: 8px 8px 50% 50%;
+    z-index: -1;
+}
+
+.price-carousel .owl-nav {
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.price-carousel .owl-nav .owl-prev,
+.price-carousel .owl-nav .owl-next{
+    position: relative;
+    margin: 0 5px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    background: #FFFFFF;
+    font-size: 22px;
+    border-radius: 45px;
+    transition: .5s;
+}
+
+.price-carousel .owl-nav .owl-prev:hover,
+.price-carousel .owl-nav .owl-next:hover {
+    color: var(--dark);
+}
+
+@media (min-width: 576px) {
+    .team-item .row {
+        height: 350px;
+    }
+}
+
+.team-carousel .owl-nav {
+    position: absolute;
+    padding: 0 45px;
+    width: 100%;
+    height: 45px;
+    top: calc(50% - 22.5px);
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-carousel .owl-nav .owl-prev,
+.team-carousel .owl-nav .owl-next {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: var(--primary);
+    border-radius: 45px;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.team-carousel .owl-nav .owl-prev:hover,
+.team-carousel .owl-nav .owl-next:hover {
+    background: var(--dark);
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    background: var(--light);
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+}
+
+.testimonial-carousel .owl-item img {
+    width: 150px;
+    height: 150px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+/*  New CSS*/
+/* Ensure the dropdown opens on hover */
+.custom-dropdown:hover .custom-dropdown-menu {
+    display: block;
+}
+
+/* Dropdown container */
+.custom-dropdown-menu {
+    display: none;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 1000;
+    min-width: 220px;
+    padding: 10px 0;
+
+    /* Enable scrolling when content exceeds max height */
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+}
+
+/* Styling for the dropdown links */
+.custom-dropdown-menu a {
+    display: block;
+    padding: 8px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover effect for links */
+.custom-dropdown-menu a:hover {
+    background: #f1f1f1;
+    color: #007bff;
+}
+
+/* Custom scrollbar styling */
+.custom-dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.custom-dropdown-menu::-webkit-scrollbar-thumb {
+    background: #007bff; /* Scrollbar color */
+    border-radius: 5px;
+}
+
+.custom-dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track background */
+}
+
+/* Remove Navbar Background */
+.navbar {
+    padding: 10px;
+    text-align: left;
+    background: transparent; /* No Background */
+}
+
+/* Style for Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: relative;
+    width: 220px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Scrollable Dropdown */
+.dropdown-content {
+    max-height: 250px; /* Adjust height as needed */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Remove Background and Borders */
+.dropdown-content a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black; /* Keep default text color */
+    font-size: 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgray;
+}
+
+/* Scrollbar Customization */
+.dropdown-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.readd {
+    background-color: #000035;
+    color: white;
+}
+
+.readd a :hover{
+    
+        background-color: white;
+        color: #000035;
+    
+}
+/* Nabh logo */
+.nabh{
+    width: 57px;
+}
+
+
+
+/* General Service Section Styling */
+.service-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+/* Service Header */
+.service-header {
+    max-width: 500px;
+}
+
+.service-title {
+    display: inline-block;
+    color: #007bff;
+    text-transform: uppercase;
+    border-bottom: 5px solid #007bff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service-subtitle {
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* Service Card */
+.service-card {
+    background: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Service Image */
+.service-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Service Name */
+.service-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Service Description */
+.service-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    padding: 0 10px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Service Button */
+.service-button {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 16px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 50px;
+    margin-top: 15px;
+    transition: background 0.3s;
+    text-decoration: none;
+}
+
+.service-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* animation*/
+
+

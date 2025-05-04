@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Profile | Hospital Name</title>
+    <link rel="stylesheet" href="doctor.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <!-- Topbar Start -->
+    <div class="container-fluid py-0 border-bottom d-none d-lg-block bg-light" style="font-size: 0.75rem; line-height: 1;">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap" style="padding: 3px 0;">
+                <!-- Center: Hospital Address with Icon -->
+                <div class="d-flex align-items-center text-muted">
+                    <i class="bi bi-geo-alt-fill text-primary me-0" style="font-size: 0.8rem;"></i>
+                    <p class="mb-0 hospital-address">RBMI Group campus, Bari Nagla, Near ITBP, Budaun Road, Bareilly</p>
+                </div>
+                
+                <!-- Right Side: Contact Numbers with Icons and Labels -->
+                <div class="d-flex align-items-center contact-info" style="gap: 5px;">
+                    <!-- Hospital Number -->
+                    <div class="text-center">
+                        <small class="text-muted d-block">Hospital Number</small>
+                        <a class="text-decoration-none text-dark fw-bold hospital-contact" href="tel:+0123456789">
+                            <i class="bi bi-telephone-fill text-primary me-0" style="font-size: 0.75rem;"></i>+91 9045954986
+                        </a>
+                    </div>
+    
+                    <!-- Ayushman Number -->
+                    <div class="text-center">
+                        <small class="text-muted d-block">Ayushman Number</small>
+                        <a class="text-decoration-none text-dark fw-bold hospital-contact" href="tel:+0123456789">
+                            <i class="bi bi-telephone-fill text-success me-0" style="font-size: 0.75rem;"></i>+91 8475000844
+                        </a>
+                    </div>
+                    <img class="nabh" src="img/NABH.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 py-lg-0">
+                <a href="index.html" class="navbar-brand" style="display: flex; text-align: center; align-items: center;">
+                    <img src="../img/dr_logo_cropped.png" alt="" class="hospital-log"><h2>DR Hospital</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="#">Our Mission</a>
+                                    <a href="#">Our Vision</a>
+                                    <a href="#">Our Team</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+
+                       
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-content">
+                                        <a href="#">Medicine</a>
+                                        <a href="#">Surgery</a>
+                                        <a href="#">Obstetrics & Gynaecology</a>
+                                        <a href="#">Orthopaedics & Trauma</a>
+                                        <a href="#">Ophthalmology</a>
+                                        <a href="#">Dental</a>
+                                        <a href="#">Radiology</a>
+                                        <a href="#">OPD</a>
+                                        <a href="#">Operation Theatre</a>
+                                        <a href="#">Lab Services</a>
+                                        <a href="#">Emergency</a>
+                                        <a href="#">Physiotherapy</a>
+                                        <a href="#">Curology</a>
+                                        <a href="#">X-Ray</a>
+                                        <a href="#">Ultrasound</a>
+                                        <a href="#">Pathology</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    
+                        <a href="price.html" class="nav-item nav-link">Clinical Updates</a>
+                        <a href="Ayushman.html" class="nav-item nav-link">Ayushman Bharat</a>
+                         <a href="contact.html" class="nav-item nav-link">Contact</a>
+                         
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="blog.html" class="dropdown-item"></a>
+                                <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                                <a href="team.html" class="dropdown-item">The Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="appointment.html" class="dropdown-item">Appointment</a>
+                                <a href="search.html" class="dropdown-item">Search</a>
+                            </div> -->
+                        </div>
+                       
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Meet Our Expert</h1>
+            <p>Providing world-class healthcare with experienced professionals.</p>
+        </div>
+    </section>
+
+    <!-- Doctor Profile Section -->
+    <section class="doctor-profile">
+        <div class="doctor-content">
+            <!-- Left: Doctor Image -->
+            <div class="doctor-image-container">
+                <img src="doctor.jpg" alt="Dr. John Doe" class="doctor-image">
+            </div>
+    
+            <!-- Right: Doctor Info -->
+            <div class="doctor-info">
+                <h2>Dr. John Doe</h2>
+                <p class="specialization">Cardiologist | MBBS, MD</p>
+                <p class="description">
+                    Dr. John Doe is an experienced cardiologist specializing in advanced heart treatments. 
+                    With over 15 years of expertise, he has successfully treated numerous complex cases.
+                </p>
+    
+                <div class="achievements">
+                    <h3>🏆 Achievements:</h3>
+                    <ul>
+                        <li>🏅 Best Cardiologist Award - 2022</li>
+                        <li>📖 Published 30+ Research Papers</li>
+                        <li>🏥 Director of Cardiology at ABC Hospital</li>
+                        <li>🌎 Member of the Global Heart Association</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <div class="container-fluid  text-white mt-4 py-3" style="background-color: #000035;"> 
+        <div class="container py-3"> 
+            <div class="row g-4"> 
+                <!-- Left Section: Hospital Info -->
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="d-flex align-items-center">
+                        <img src="../img/dr_logo_cropped.png" alt="DR Hospital Logo" class="hospital-logo me-2" style="height: 40px;">
+                        <h4 class="text-primary mb-0 fw-bold" style="font-size: 1.2rem;">DR Hospital</h4>
+                    </div>
+                    <p class="mt-2 mb-2" style="font-size: 0.9rem; line-height: 1.4;">RBMI Group is to be a partner in building India a world leader in Technical, Management, Pharmacy, Medical Education & Healthcare.  
+    
+                    Established in 2018, DR Hospital is a 100-Bed Critical Access Hospital in Bari Nagla, Near ITBP, Badaun Road, Bareilly. It offers digital X-Ray, Ultrasound, Pathology lab, OPD services, and specialist doctors.</p>
+                    <p class="mb-1"><i class="fa fa-phone-alt text-primary me-2"></i>+91 9045954986</p>
+                    <p class="mb-0"><i class="fa fa-envelope text-primary me-2"></i>info@drhospital.com</p>
+                </div>
+    
+                <!-- Middle Section: Quick Links & Address -->
+                <div class="col-lg-5 col-md-6 text-center text-md-start">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h5 class="text-white text-uppercase border-bottom border-2 border-secondary mb-2" style="font-size: 1rem;">Quick Links</h5>
+                            <div class="d-flex flex-column" style="font-size: 0.9rem;">
+                                <a class="text-white mb-1" href="#"><i class="fa fa-angle-right me-1"></i>Home</a>
+                                <a class="text-white mb-1" href="#"><i class="fa fa-angle-right me-1"></i>About Us</a>
+                                <a class="text-white mb-1" href="#"><i class="fa fa-angle-right me-1"></i>Our Services</a>
+                                <a class="text-white mb-1" href="#"><i class="fa fa-angle-right me-1"></i>Departments</a>
+                                <a class="text-white mb-1" href="#"><i class="fa fa-angle-right me-1"></i>Contact Us</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-white text-uppercase border-bottom border-2 border-secondary mb-2" style="font-size: 1rem;">Our Address</h5>
+                            <p class="mb-1" style="font-size: 0.9rem;"><i class="fa fa-map-marker-alt text-primary me-1"></i>RBMI Group, Bari Nagla, Bareilly</p>
+                            <p class="mb-0" style="font-size: 0.9rem;"><i class="fa fa-clock text-dark me-1"></i>Mon - Sat: 9 AM - 8 PM</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Right Section: Follow Us -->
+                <div class="col-lg-3 col-md-6 text-center text-md-start">
+                    <h5 class="text-primary text-uppercase border-bottom border-2 border-secondary mb-2" style="font-size: 1rem;">Follow Us</h5>
+                    <div class="d-flex justify-content-center justify-content-md-start">
+                        <a class="btn btn-sm btn-primary btn-square rounded-circle me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm btn-primary btn-square rounded-circle me-1" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm btn-primary btn-square rounded-circle me-1" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm btn-primary btn-square rounded-circle me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm btn-primary btn-square rounded-circle" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        gsap.from(".hero-content", { duration: 1, opacity: 0, y: 50, ease: "power2.out" });
+        gsap.from(".doctor-card", { duration: 1, opacity: 0, x: -50, ease: "power2.out", delay: 0.5 });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+</body>
+</html>

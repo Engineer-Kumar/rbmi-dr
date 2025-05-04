@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.header nav {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-content img {
+    width: 220px;
+    height: auto;
+    border: 3px solid #00a8ff;
+    border-radius: 10px;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.department-label {
+    color: #00a8ff;
+    font-weight: bold;
+}
+
+.hospital-name {
+    color: #0073e6;
+}
+
+/* Accordion */
+.accordion {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.accordion-item {
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-item:hover {
+    background: #f0f8ff;
+}
+
+.accordion-header {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Consultants */
+.consultants {
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.consultant-card {
+    text-align: center;
+}
+
+.consultant-card img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content img {
+        width: 80%;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .accordion {
+        width: 95%;
+    }
+
+    .consultants {
+        width: 95%;
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | DR Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        /* Initial hidden state for animation */
+        .section, .team-section {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        /* Visible state */
+        .visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="hero"></header>
+
+<!-- Our Mission -->
+<section class="section">
+    <div class="container">
+        <div class="content">
+            <i class="fas fa-heartbeat icon"></i>
+            <h2>Our Mission</h2>
+            <p>At DR Hospital, our mission is to provide <b>quality healthcare</b> with <b>compassion and integrity</b>. We strive to enhance the well-being of our community through advanced medical care and cutting-edge treatments.</p>
+        </div>
+        <img src="../img/hero.jpg" alt="Our Mission">
+    </div>
+</section>
+
+<!-- Our Vision -->
+<section class="section reverse">
+    <div class="container">
+        <img src="../img/blog-1.jpg" alt="Our Vision">
+        <div class="content">
+            <i class="fas fa-eye icon"></i>
+            <h2>Our Vision</h2>
+            <p>Our vision is to become a <b>leading healthcare provider</b>, recognized for <b>excellence and innovation</b>. We aim to create a <b>patient-first</b> environment where cutting-edge medical advancements meet compassionate care.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Our Team -->
+<section class="team-section">
+    <h2>Meet Our Team</h2>
+    <p>Dedicated professionals providing world-class healthcare</p>
+    
+    <div class="team-container">
+        <div class="team-member">
+            <img src="../img/team-1.jpg" alt="Dr. John Doe">
+            <h3>Dr. John Doe</h3>
+            <p>Chief Surgeon</p>
+        </div>
+        
+        <div class="team-member">
+            <img src="../img/team-2.jpg" alt="Dr. Sarah Smith">
+            <h3>Dr. Sarah Smith</h3>
+            <p>Cardiologist</p>
+        </div>
+        
+        <div class="team-member">
+            <img src="../img/team-3.jpg" alt="Dr. Michael Brown">
+            <h3>Dr. Michael Brown</h3>
+            <p>Neurologist</p>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Function to check if an element is in viewport
+    function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return rect.top < window.innerHeight - 100; // Trigger 100px before it appears
+    }
+
+    // Function to add "visible" class to elements when scrolled into view
+    function showOnScroll() {
+        const sections = document.querySelectorAll('.section, .team-section');
+        sections.forEach(section => {
+            if (isInViewport(section)) {
+                section.classList.add('visible');
+            }
+        });
+    }
+
+    // Run function on scroll
+    window.addEventListener('scroll', showOnScroll);
+    
+    // Run on load (in case some sections are already in view)
+    showOnScroll();
+</script>
+
+</body>
+</html>

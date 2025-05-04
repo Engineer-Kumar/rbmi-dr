@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayushman Bharat | DR Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>/* General Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            color: #333;
+        }
+        
+        /* Header */
+        .header {
+            background:orange;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        
+        .header h1 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .header p {
+            font-size: 1.3rem;
+        }
+        
+        /* About Ayushman Bharat */
+        .about-ayushman {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+        }
+        
+        .about-ayushman h2 {
+            font-size: 2.5rem;
+            color: #000035;
+        }
+        
+        .leaders {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 30px;
+        }
+        
+        .leader img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+        }
+        
+        .leader h3 {
+            color: #000035;
+            margin-top: 10px;
+        }
+        
+        /* About DR Hospital */
+        .about-hospital {
+            display: flex;
+            align-items: center;
+            padding: 60px 20px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+        }
+        
+        .hospital-image img {
+            width: 400px;
+            border-radius: 20px;
+        }
+        
+        .hospital-content {
+            padding-left: 40px;
+        }
+        
+        .hospital-content h2 {
+            font-size: 2.5rem;
+            color: #000035;
+        }
+        
+        .hospital-content p {
+            font-size: 1.2rem;
+        }
+        
+        /* Eligibility Section */
+        .eligibility {
+            text-align: center;
+            padding: 60px 20px;
+            background: orange;
+            color: white;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+        
+        .eligibility h2 {
+            font-size: 2.5rem;
+        }
+        
+        .criteria {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .card {
+            background: white;
+            color: #000035;
+            width: 250px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        
+        .card i {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        
+        /* Agencies Section */
+        .agencies {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        
+        .agency-logos {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .agency-logos img {
+            width: 150px;
+        }
+        
+        /* Apply Section */
+        .apply {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+        }
+        
+        .apply h2 {
+            font-size: 2.5rem;
+            color: #000035;
+        }
+        
+        .apply-btn {
+            background: linear-gradient(45deg, #000035, #003080);
+            color: white;
+            font-size: 1.3rem;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .apply-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        </style> 
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Ayushman Bharat Yojana</h1>
+        <p>Providing Free Health Coverage at DR Hospital</p>
+    </header>
+
+    <!-- About Ayushman Bharat -->
+    <section class="about-ayushman">
+       
+        <h2>What is Ayushman Bharat Yojana?</h2>
+        <p>Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PMJAY) is a healthcare initiative by the Government of India to provide **free health insurance** to economically vulnerable Indians. It covers medical expenses up to **₹5 lakh per family per year**.</p>
+        
+        <div class="leaders">
+            <div class="leader">
+                <img src="img/pm.jpeg" alt="Prime Minister">
+                <h3>Shri Narendra Modi</h3>
+            </div>
+            <div class="leader">
+                <img src="img/cm.jpeg" alt="Chief Minister">
+                <h3>Shri Yogi Adityanath</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- About DR Hospital -->
+    <section class="about-hospital">
+        <div class="hospital-image">
+            <img src="img/h3.jpeg" alt="DR Hospital">
+        </div>
+        <div class="hospital-content">
+            <h2>About DR Hospital</h2>
+            <p>DR Hospital is a **multi-specialty healthcare center** providing **advanced medical treatments** under the Ayushman Bharat scheme. We ensure quality healthcare services with modern infrastructure and experienced doctors.</p>
+            <p><strong>Address:</strong> XYZ Road, City, State</p>
+            <p><strong>Contact:</strong> +91 98765 43210</p>
+        </div>
+    </section>
+
+    <!-- Eligibility Criteria -->
+    <section class="eligibility">
+        <h2>Who is Eligible?</h2>
+        <div class="criteria">
+            <div class="card">
+                <i class="fas fa-user-check"></i>
+                <p>Families listed in SECC 2011 database</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-rupee-sign"></i>
+                <p>Low-income households (BPL families)</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-hospital"></i>
+                <p>Senior citizens, disabled persons & women</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agencies Section -->
+    <section class="agencies">
+        <h2>Partnering Agencies</h2>
+        <div class="agency-logos">
+            <img src="img/NABH.jpeg" alt="Agency 1">
+            <img src="img/NABH.jpeg" alt="Agency 2">
+            <img src="img/NABH.jpeg" alt="Agency 3">
+        </div>
+    </section>
+
+    <!-- Apply Section -->
+    <section class="apply">
+        <h2>Apply for Ayushman Bharat</h2>
+        <p>Visit DR Hospital with valid documents to check eligibility and register for the scheme.</p>
+        <a href="#" class="apply-btn">Apply Now</a>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+[33m9cbd20c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: rebase (finish): returning to refs/heads/main
+[33m9cbd20c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: commit: Resolved merge conflicts
+[33m29b9224[m HEAD@{2}: pull --rebase origin main (start): checkout 29b922469f834e40024b932b4c427987af72d151
+[33m7cce5ee[m HEAD@{3}: commit: Resolved merge conflict in index.html
+[33m9105599[m HEAD@{4}: commit (merge): Resolved merge conflict in index.html
+[33m2d24464[m HEAD@{5}: commit: update
+[33m6bb7cc2[m HEAD@{6}: rebase (finish): returning to refs/heads/main
+[33m6bb7cc2[m HEAD@{7}: rebase (continue): Updated files
+[33mf5814f3[m HEAD@{8}: pull origin main --rebase (start): checkout f5814f39f96b3d713f318e320dfac0595b37d04c
+[33m2383812[m HEAD@{9}: rebase (abort): returning to refs/heads/main
+[33m8662828[m HEAD@{10}: commit: Your commit message
+[33mfcf620d[m HEAD@{11}: commit: Resolved merge conflicts
+[33mf5814f3[m HEAD@{12}: pull origin main --rebase (start): checkout f5814f39f96b3d713f318e320dfac0595b37d04c
+[33m2383812[m HEAD@{13}: commit: Updated files
+[33m03b48a4[m HEAD@{14}: clone: from https://github.com/ShikhaMathur02/dr-hospital-frontend.git

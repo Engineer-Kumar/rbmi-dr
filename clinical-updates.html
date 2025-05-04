@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Updates | DR Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<style>
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Banner Section */
+.banner {
+    background: url('img/clinic-banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #000035;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Clinic Updates Section */
+.clinic-updates {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    animation: slideUp 1s ease-in-out;
+}
+
+.clinic-updates h2 {
+    font-size: 2.5rem;
+    color: #000035;
+    margin-bottom: 20px;
+}
+
+.updates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Update Card */
+.update-card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 20px;
+}
+
+.update-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.update-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.update-card h3 {
+    color: #000035;
+    margin-top: 10px;
+}
+
+.update-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Icon Styling */
+.update-card i {
+    font-size: 2rem;
+    color: #000035;
+    margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+</style>
+
+<body>
+
+<!-- Banner Section -->
+<section class="banner">
+    <h1>Welcome to DR Hospital's Clinic Updates</h1>
+    <p>Stay informed about the latest medical advancements, health programs, and hospital events.</p>
+</section>
+
+<!-- Clinic Updates Section -->
+<section class="clinic-updates">
+    <h2>Latest Updates</h2>
+
+    <div class="updates-container">
+        <!-- Update 1 -->
+        <div class="update-card">
+            <img src="img/clinic-update1.jpg" alt="New Equipment">
+            <i class="fas fa-stethoscope"></i>
+            <h3>New MRI Scanner Installed</h3>
+            <p>We are proud to introduce a state-of-the-art MRI machine for accurate diagnoses.</p>
+        </div>
+
+        <!-- Update 2 -->
+        <div class="update-card">
+            <img src="img/clinic-update2.jpg" alt="Health Camp">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Free Health Check-up Camp</h3>
+            <p>Join us this Sunday for a free check-up and health awareness program.</p>
+        </div>
+
+        <!-- Update 3 -->
+        <div class="update-card">
+            <img src="img/clinic-update3.jpg" alt="Doctor Team">
+            <i class="fas fa-user-md"></i>
+            <h3>New Specialist Doctors</h3>
+            <p>We welcome top cardiologists and neurologists to our medical team.</p>
+        </div>
+
+        <!-- Update 4 -->
+    </div>
+</section>
+
+</body>
+</html>

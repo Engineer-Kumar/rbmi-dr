@@ -1,0 +1,154 @@
+:root {
+    --primary: #000035;
+    --secondary: #000042;
+    --light: #dbb3d1;
+    --dark: #1D2A4D;
+}
+
+
+/* Reset & General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+/* Navbar */
+header {
+    background: var(--secondaryx);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Hero Section */
+.hero {
+    background:var(--secondary);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Doctor Profile Section */
+/* Doctor Profile Section */
+.doctor-profile {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Doctor Content: Two-Column Layout */
+.doctor-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Doctor Image Section */
+.doctor-image-container {
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+}
+
+.doctor-image {
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid var(--secondary);
+}
+
+/* Doctor Information Section */
+.doctor-info {
+    flex: 2;
+    color: #333;
+}
+
+h2 {
+    font-size: 26px;
+    color: var(--secondary);
+    margin-bottom: 5px;
+}
+
+.specialization {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Achievements Section */
+.achievements h3 {
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements ul li {
+    font-size: 16px;
+    padding: 5px 0;
+    color: #222;
+    display: flex;
+    align-items: center;
+}
+
+.achievements ul li::before {
+    content: "✔";
+    color: #6a0572;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .doctor-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .doctor-image-container {
+        max-width: 200px;
+    }
+}
+
+/* Footer */
+footer {
+    background: #6a0572;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
